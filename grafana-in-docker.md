@@ -25,3 +25,13 @@ volumes:
   grafana_data:
   grafana_config:
 ```
+#### 3. Run the docker-compose.yml file. 
+```
+docker-compose up -d
+```
+#### 4. Run the following URL on the browser. 
+```
+http://your_ip_address:3000
+```
+Default User: admin
+Default Pass: admin 
