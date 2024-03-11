@@ -1,3 +1,13 @@
+#### 1. Go to the directory where the dockerc-compose.yml file will be kept. 
+```
+mkdir grafana && cd grafana 
+```
+#### 2. Copy the following contents and past them in the docker-compose file.  
+
+```
+touch dockerc-compose.yml && vim dockerc-compose.yml
+```
+
 ```
 version: "3.9"
 services:
